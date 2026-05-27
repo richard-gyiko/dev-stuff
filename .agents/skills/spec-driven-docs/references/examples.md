@@ -111,13 +111,13 @@ Avoid:
 If agents need scratch space, use a single ignored folder:
 
 ```
-.ai/
+.scratchpad/
 ```
 
 In `.gitignore`:
 
 ```gitignore
-.ai/
+.scratchpad/
 ```
 
 Do not use `.agent/` (singular) — it visually collides with the `.agents/skills/` directory convention used by Claude skills.

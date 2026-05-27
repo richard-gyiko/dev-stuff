@@ -31,7 +31,7 @@ tasks.md  plan.md  todo.md  scratch.md  notes.md
 active/   done/    archive/  changes/
 ```
 
-Use `.ai/` (gitignored) for ephemeral agent scratch. Do not use `.agent/` — it visually collides with the `.agents/skills/` convention.
+Use `.scratchpad/` (gitignored) for ephemeral agent scratch. Do not use `.agent/` — it visually collides with the `.agents/skills/` convention.
 
 ## When to create or update
 
@@ -71,7 +71,7 @@ When `docs/` does not yet exist:
 
 1. Create `docs/system.md` with sections: **Overview**, **Modules**, **Data flows**, **Integrations**, **Deployment**, **Related specs/decisions**. Stub each — fill as the system grows.
 2. Create empty `docs/specs/` and `docs/decisions/` directories (add `.gitkeep` if needed).
-3. Add `.ai/` to `.gitignore`.
+3. Add `.scratchpad/` to `.gitignore`.
 4. Optionally drop `assets/pr-checklist.md` into the PR template.
 
 Do not pre-create domain folders. Add `docs/specs/<domain>/` when the first capability in that domain appears.
