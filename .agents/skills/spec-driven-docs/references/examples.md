@@ -29,8 +29,8 @@ docs/
       observability.md
 
   decisions/
-    0001-use-better-auth.md
-    0002-keep-agent-plans-ephemeral.md
+    use-better-auth.md
+    keep-agent-plans-ephemeral.md
 ```
 
 ## `system.md` — map, not territory

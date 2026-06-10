@@ -1,3 +1,8 @@
+---
+status: active        # active | deprecated
+domain: <domain>      # matches the specs/<domain>/ folder
+---
+
 # <Data Capability>
 
 ## Purpose
