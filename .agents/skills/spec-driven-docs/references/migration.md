@@ -11,7 +11,7 @@ docs/specs/<domain>/<capability>.md
 Move architectural choices into:
 
 ```
-docs/decisions/<NNNN>-<slug>.md
+docs/decisions/<slug>.md
 ```
 
 Move high-level system overview into:

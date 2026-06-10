@@ -1,8 +1,10 @@
-# NNNN <Decision Title>
+---
+status: accepted      # proposed | accepted | superseded | deprecated
+date: YYYY-MM-DD       # decision date (immutable)
+superseded-by:         # optional, slug of the ADR that replaces this one
+---
 
-## Status
-
-Accepted
+# <Decision Title>
 
 ## Context
 
